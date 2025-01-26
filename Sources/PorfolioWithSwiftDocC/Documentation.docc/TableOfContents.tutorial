@@ -18,10 +18,13 @@
         # Contact
         [LinkedIn](https://www.linkedin.com/in/mkurakawa/) / [GitHub](https://github.com/kamimi01) / [X (Twitter)](https://twitter.com/kamimi_01)
         
+        # Resume
+        Check [this](https://docs.google.com/document/d/1h8N_XopTJr97K75A4Er5NY76w9IbROfjEfUC4y6YhyU/edit?usp=sharing) out! 🚀
+        
         @Image(source: my-apps.png, alt: "my apps in App Store")
     }
     
-    @Chapter(name: "Personal Development Apps") {
+    @Chapter(name: "🚀 Personal Development Apps") {
         @Image(source: my-apps.png, alt: "A wireframe of an app interface that has an outline of a sloth and four buttons below the sloth. The buttons display the following symbols, from left to right: snowflake, fire, wind, and lightning.")
         
         I enjoy developing personal development apps, primarily for iOS 🍎
@@ -29,11 +32,35 @@
         @TutorialReference(tutorial: "doc:PersonalDevelopmentApps")
     }
     
-    @Chapter(name: "Speaking") {
+    @Chapter(name: "👩🏻‍🏫 Speaking") {
         @Image(source: iosdc2023.jpg, alt: "A wireframe of an app interface that has an outline of a sloth and four buttons below the sloth. The buttons display the following symbols, from left to right: snowflake, fire, wind, and lightning.")
         
         Had the great opportunity to speak at iOSDC Japan 2023, the top conference for iOS app development in Japan. And gave a presentation on iOS app automated build at an external tech conference held at Yappli, as well as presentations within the company.
         
         @TutorialReference(tutorial: "doc:Speaking")
+    }
+    
+    @Chapter(name: "✍️ Articles") {
+        @Image(source: iosdc2023.jpg, alt: "A wireframe of an app interface that has an outline of a sloth and four buttons below the sloth. The buttons display the following symbols, from left to right: snowflake, fire, wind, and lightning.")
+        
+        Love writing articles. I write not only technical articles on tech blogging service, but also records of participation in technical conferences and career.
+        
+        @TutorialReference(tutorial: "doc:Articles")
+    }
+    
+    @Chapter(name: "🏋️‍♀️ Contributions to many communities") {
+        @Image(source: iosdc2023.jpg, alt: "A wireframe of an app interface that has an outline of a sloth and four buttons below the sloth. The buttons display the following symbols, from left to right: snowflake, fire, wind, and lightning.")
+        
+        Organized the tech blog at Yappli. I'm also interested in DevRel in general and involved in Japanese translations of articles and conference management.
+        
+        @TutorialReference(tutorial: "doc:ContributionToCommunities")
+    }
+    
+    @Chapter(name: "🐠 Hobbies") {
+        @Image(source: iosdc2023.jpg, alt: "A wireframe of an app interface that has an outline of a sloth and four buttons below the sloth. The buttons display the following symbols, from left to right: snowflake, fire, wind, and lightning.")
+        
+        Love writing, traveling, marine sports, and learning English. I recently started scuba diving 🤿 
+        
+        @TutorialReference(tutorial: "doc:ContributionToCommunities")
     }
 }
