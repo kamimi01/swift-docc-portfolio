@@ -1,13 +1,75 @@
 @Tutorial(time: 1) {
-    @Intro(title: "iOS Apps") {
+    @Intro(title: "Personal Developmant Apps") {
         Create, catalog, and care for sloths using SlothCreator. Get started with SlothCreator by building the demo app _Slothy_.
         
-        @Image(source: slothcreator-intro.png, alt: "An illustration of 3 iPhones in portrait mode, displaying the UI of finding, creating, and taking care of a sloth in Slothy — the sample app that you build in this collection of tutorials.")
+        @Image(source: my-apps.png, alt: "An illustration of 3 iPhones in portrait mode, displaying the UI of finding, creating, and taking care of a sloth in Slothy — the sample app that you build in this collection of tutorials.")
     }
     
-    @Intro(title: "iOS Apps") {
-        Create, catalog, and care for sloths using SlothCreator. Get started with SlothCreator by building the demo app _Slothy_.
+    @Section(title: "iOS Apps") {
+        @ContentAndMedia {
+            Create and configure an Xcode project that uses SlothCreator.
+            
+            @Image(source: my-apps.png, alt: "An arrow pointing from the SlothCreator framework icon to the Xcode app project icon.")
+        }
         
-        @Image(source: slothcreator-intro.png, alt: "An illustration of 3 iPhones in portrait mode, displaying the UI of finding, creating, and taking care of a sloth in Slothy — the sample app that you build in this collection of tutorials.")
+        @Steps {
+            @Step {
+                I'm gonna introduce my apps with this format.
+                
+                @Code(name: "iOSApps-01.swift", file: iOSApps-01.swift) {}
+            }
+            
+            @Step {
+                Friend Manager
+                
+                To manage your friends
+                
+                @Code(name: "iOSApps-02.swift", file: iOSApps-02.swift) {
+                    @Image(source: friend-manager.gif, alt: "")
+                }
+            }
+            
+            @Step {
+                TopicGen
+                
+                To generate a variety of topics by inputting a condition with OpenAI
+                
+                @Code(name: "iOSApps-03.swift", file: iOSApps-03.swift) {
+                    @Image(source: topicgen.gif, alt: "")
+                }
+            }
+            
+            @Step {
+                EZ Pomo
+                
+                To help using Pomodoro technique
+                
+                @Code(name: "iOSApps-04.swift", file: iOSApps-04.swift) {
+                    @Image(source: ezpomo.gif, alt: "")
+                }
+            }
+            
+            @Step {
+                More apps are available in [App Store](https://apps.apple.com/jp/developer/mika-urakawa/id1566867399)!
+                
+                @Image(source: my-apps.png, alt: "An arrow pointing from the SlothCreator framework icon to the Xcode app project icon.")
+            }
+        }
+    }
+    
+    @Section(title: "Library") {
+        @ContentAndMedia {
+            Create and configure an Xcode project that uses SlothCreator.
+            
+            @Image(source: my-apps.png, alt: "An arrow pointing from the SlothCreator framework icon to the Xcode app project icon.")
+        }
+    }
+    
+    @Section(title: "Slack Apps / APIs") {
+        @ContentAndMedia {
+            Create and configure an Xcode project that uses SlothCreator.
+            
+            @Image(source: my-apps.png, alt: "An arrow pointing from the SlothCreator framework icon to the Xcode app project icon.")
+        }
     }
 }
