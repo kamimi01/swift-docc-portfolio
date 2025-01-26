@@ -1,6 +1,6 @@
 @Tutorials(name: "Portfolio Title") {
-    @Intro(title: "Welcome to Mika's Portfolio! 🌞") {
-        On this website, I mainly introduce personal development projects which include many products and articles.
+    @Intro(title: "Welcome to Mika's Portfolio! 🌞 with Swift-DocC!") {
+        On this website, I mainly introduce personal development projects. 
         
         The most interesting point is that this website is made with [Swift-DocC](https://github.com/swiftlang/swift-docc). (GitHub is [here](https://github.com/kamimi01/swift-docc-portfolio))
         
@@ -9,18 +9,17 @@
         ---
         
         # About Me
-        🍎 iOS App Developer at [BlackBerry](https://www.blackberry.com/us/en) in Canada and [Yappli](https://yapp.li/) in Japan
-        
+        🍎 iOS App Developer with 6+ year experience
+
         👩‍💻 Love developing as my hobby! and Make fun staffs like this website!!
         
         ✍️ Love writing articles and traveling
         
         # Contact
-        [LinkedIn](https://www.linkedin.com/in/mkurakawa/) / [GitHub](https://github.com/kamimi01) / [X (Twitter)](https://twitter.com/kamimi_01)
-        
-        # Resume
-        Check [this](https://docs.google.com/document/d/1h8N_XopTJr97K75A4Er5NY76w9IbROfjEfUC4y6YhyU/edit?usp=sharing) out! 🚀
-        
+        [LinkedIn](https://www.linkedin.com/in/mkurakawa/) / [GitHub](https://github.com/kamimi01) / [Medium](https://medium.com/@kamimi01)
+ 
+        👉 [My Resume](https://docs.google.com/document/d/1h8N_XopTJr97K75A4Er5NY76w9IbROfjEfUC4y6YhyU/edit?usp=sharing)
+
         @Image(source: my-apps.png, alt: "my apps in App Store")
     }
     
@@ -41,7 +40,7 @@
     }
     
     @Chapter(name: "✍️ Articles") {
-        @Image(source: iosdc2023.jpg, alt: "A wireframe of an app interface that has an outline of a sloth and four buttons below the sloth. The buttons display the following symbols, from left to right: snowflake, fire, wind, and lightning.")
+        @Image(source: medium.png, alt: "A wireframe of an app interface that has an outline of a sloth and four buttons below the sloth. The buttons display the following symbols, from left to right: snowflake, fire, wind, and lightning.")
         
         Love writing articles. I write not only technical articles on tech blogging service, but also records of participation in technical conferences and career.
         
@@ -49,7 +48,7 @@
     }
     
     @Chapter(name: "🏋️‍♀️ Contributions to many communities") {
-        @Image(source: iosdc2023.jpg, alt: "A wireframe of an app interface that has an outline of a sloth and four buttons below the sloth. The buttons display the following symbols, from left to right: snowflake, fire, wind, and lightning.")
+        @Image(source: devrel.png, alt: "A wireframe of an app interface that has an outline of a sloth and four buttons below the sloth. The buttons display the following symbols, from left to right: snowflake, fire, wind, and lightning.")
         
         Organized the tech blog at Yappli. I'm also interested in DevRel in general and involved in Japanese translations of articles and conference management.
         
