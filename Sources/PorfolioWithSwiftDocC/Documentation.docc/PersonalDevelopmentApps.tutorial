@@ -16,35 +16,35 @@
             @Step {
                 I'm gonna introduce my apps with this format.
                 
-                @Code(name: "iOSApps-01.swift", file: iOSApps-01.swift) {}
+                @Code(name: "iOSApps.swift", file: iOSApps-01.swift) {}
             }
             
             @Step {
-                Friend Manager
+                Friend Manager  ([AppStore](https://apps.apple.com/jp/app/%E3%81%B5%E3%82%8C%E3%81%BE%E3%81%AD/id1668244395?l=ja) / [GitHub](https://github.com/kamimi01/MeetupReminder) / [Article(ja)](https://zenn.dev/kamimi01/articles/18e2bc1ff618ac))
                 
                 To manage your friends
                 
-                @Code(name: "iOSApps-02.swift", file: iOSApps-02.swift) {
+                @Code(name: "iOSApps.swift", file: iOSApps-02-01.swift) {
                     @Image(source: friend-manager.gif, alt: "")
                 }
             }
             
             @Step {
-                TopicGen
+                TopicGen  ([AppStore](https://apps.apple.com/jp/app/topicgen/id1673161138?l=ja) / [GitHub](https://github.com/kamimi01/CoffeeChatThemeGenerator) / [Article(ja)](https://zenn.dev/kamimi01/articles/f1eed4afa5678d))
                 
                 To generate a variety of topics by inputting a condition with OpenAI
                 
-                @Code(name: "iOSApps-03.swift", file: iOSApps-03.swift) {
+                @Code(name: "iOSApps.swift", file: iOSApps-02-02.swift) {
                     @Image(source: topicgen.gif, alt: "")
                 }
             }
             
             @Step {
-                EZ Pomo
+                EZ Pomo ([AppStore](https://apps.apple.com/jp/app/topicgen/id1673161138?l=ja) / [GitHub](https://github.com/kamimi01/PomodoroCounter) / [Article(ja)](https://zenn.dev/kamimi01/articles/17f487dacf1621))
                 
                 To help using Pomodoro technique
                 
-                @Code(name: "iOSApps-04.swift", file: iOSApps-04.swift) {
+                @Code(name: "iOSApps.swift", file: iOSApps-02-03.swift) {
                     @Image(source: ezpomo.gif, alt: "")
                 }
             }

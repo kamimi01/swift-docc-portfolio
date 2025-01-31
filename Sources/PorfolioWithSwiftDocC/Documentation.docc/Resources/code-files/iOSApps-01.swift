@@ -5,10 +5,15 @@ struct iOSApp {
     let name: String
     /// Tech Stacks
     let technologies: [String]
-    /// URL of an article (if available)
-    let articleURL: URL?
-    /// URL of App Store (if available)
-    let appStoreURL: URL?
-    /// URL of GitHub (if available)
-    let githubURL: URL?
+    /// URLs
+    let urls: [URLType: URL]?
+}
+
+enum URLType: Hashable {
+    /// Article
+    case article
+    /// App Store
+    case appStore
+    /// GitHub
+    case github
 }
