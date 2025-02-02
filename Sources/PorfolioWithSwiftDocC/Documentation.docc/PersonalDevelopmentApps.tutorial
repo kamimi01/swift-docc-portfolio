@@ -71,7 +71,7 @@
                 Swift Package Manager for iOS Apps to display support and application information on the settings screen View.
                 
                 @Code(name: "Libraries.swift", file: Libraries-01.swift) {
-                    @Image(source: appInfoList.png, alt: "Swift Package Manager for iOS Apps.")
+                    @Image(source: appInfoList.gif, alt: "Swift Package Manager for iOS Apps.")
                 }
             }
         }
