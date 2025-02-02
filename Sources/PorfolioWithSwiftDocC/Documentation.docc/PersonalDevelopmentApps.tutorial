@@ -7,7 +7,7 @@
     
     @Section(title: "iOS Apps") {
         @ContentAndMedia {
-            Create and configure an Xcode project that uses SlothCreator.
+            I enjoy developing personal development apps, primarily for iOS 🍎 (you can find a list of the iOS apps I have released here). I am keenly interested in iOS app development and am currently working actively with SwiftUI. Additionally, I am exploring cross-platform development and experimenting with replacing previously released apps using Flutter. I also have experience developing Google Apps Script (GAS), and Slack apps, and open-source software (OSS) libraries.
             
             @Image(source: my-apps.png, alt: "An arrow pointing from the SlothCreator framework icon to the Xcode app project icon.")
         }

@@ -1,28 +1,52 @@
-@Tutorial(time: 5) {
+@Tutorial(time: 2) {
     @Intro(title: "Speaking") {
-        xxxx
+        Had the great opportunity to speak at iOSDC Japan 2023, the top conference for iOS app development in Japan. And gave a presentation on iOS app automated build at an external tech conference held at Yappli, as well as presentations within the company.
         
-<!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
+        @Image(source: iosdc2023.jpg, alt: "iosdc2023")
     }
     
-    @Section(title: "<#text#>") {
+    @Section(title: "Speakings") {
         @ContentAndMedia {
-            blahblah
+            Presentations such as a conference.
             
-<!--            @Image(source: <#file#>, alt: "<#accessible description#>")-->
+            @Image(source: iosdc2023.jpg, alt: "iosdc")
         }
         
         @Steps {
             @Step {
-                blahblah
+                I'm gonna introduce my apps with this format.
                 
-<!--                @Image(source: <#file#>, alt: "<#accessible description#>")-->
+                @Code(name: "Speakings.swift", file: Speakings-01.swift) {}
             }
             
             @Step {
-                blahblah
+                iOSDC Japan 2023 (one of the largest iOS conferences representing Japan) ([Slide](https://speakerdeck.com/kamimi/understanding-the-fundamentals-privacy-changes-to-address-by-next-spring) / [Video](https://www.youtube.com/watch?v=nghiXtiep24) / [Article(ja)](https://zenn.dev/kamimi01/articles/f8acb9cf2a8461))
                 
-<!--                @Code(name: "<#display name#>", file: <#filename.swift#>)-->
+                Presented under the title 'Understanding the Fundamentals: Privacy Changes to Address by Next Spring.' This talk covers a wide range of topics from the basics of privacy in iOS app development to the content announced this year. ([My proposal](https://fortee.jp/iosdc-japan-2023/proposal/d88b8692-7b99-4e2b-bdea-55d94b2c9952))
+                
+                @Code(name: "Speakings.swift", file: Speakings-02-01.swift) {
+                    @Image(source: iosdc2023.jpg, alt: "Swift Package Manager for iOS Apps.")
+                }
+            }
+            
+            @Step {
+                Yappli Tech Conference 2022 ([Slide](https://speakerdeck.com/kamimi/ios-development-cycle-and-versioning-at-yappli) / [Video](https://youtu.be/3zjATHgfyKk) / [Article(ja)](https://tech.yappli.io/entry/yapplitechconf2022-ios_3))
+                
+                Development flow which makes it easier to operate iOS Applications with no code, and What we worked on version management.
+                
+                @Code(name: "Speakings.swift", file: Speakings-02-02.swift) {
+                    @Image(source: yapp-tech.png, alt: "Yapp Tech")
+                }
+            }
+            
+            @Step {
+                potatotips #82 (Mobile App Dev Meetup in Japan) ([Slide](https://speakerdeck.com/kamimi/the-guide-of-swift-openapi-generator-for-beginners) / [Video](https://youtu.be/GyEtEy054IY?t=6995) / [Article(ja)](https://zenn.dev/kamimi01/articles/7c6f79e42c3750))
+                
+                The Guide of Swift OpenAPI Generator for the beginners
+                
+                @Code(name: "Speakings.swift", file: Speakings-02-03.swift) {
+                    @Image(source: potatotips.png, alt: "potatotips")
+                }
             }
         }
     }
