@@ -1,28 +1,36 @@
-@Tutorial(time: 2) {
+@Tutorial(time: 1) {
     @Intro(title: "Articles") {
-        xxxx
+        Love writing articles. I write not only technical articles on tech blogging service, but also records of participation in technical conferences and career.
         
-<!--        @Image(source: <#file#>, alt: "<#accessible description#>")-->
+        @Image(source: medium.png, alt: "medium")
     }
     
-    @Section(title: "<#text#>") {
+    @Section(title: "Articles") {
         @ContentAndMedia {
-            blahblah
+            Love writing articles. I write not only technical articles on tech blogging service, but also records of participation in technical conferences and career.
             
-<!--            @Image(source: <#file#>, alt: "<#accessible description#>")-->
+            @Image(source: medium.png, alt: "medium")
         }
         
         @Steps {
             @Step {
-                blahblah
+                I'm gonna introduce my articles with this format.
                 
-<!--                @Image(source: <#file#>, alt: "<#accessible description#>")-->
+                @Code(name: "Articles.swift", file: Articles-01.swift) {}
             }
             
             @Step {
-                blahblah
+                The Guide of Swift OpenAPI Generator for the beginners in iOSDC Japan 2023 Pamphlet ([Blog](https://zenn.dev/kamimi01/scraps/ddad5212081b1a))
                 
-<!--                @Code(name: "<#display name#>", file: <#filename.swift#>)-->
+                @Code(name: "Articles.swift", file: Articles-02-01.swift) {}
+            }
+            
+            @Step {
+                Record when I attended tech conferences and My Career.  ([Blog](https://medium.com/@kamimi01))
+                
+                @Code(name: "Articles.swift", file: Articles-02-02.swift) {
+                    @Image(source: medium.png, alt: "medium")
+                }
             }
         }
     }
