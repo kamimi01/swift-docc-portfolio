@@ -1,20 +1,20 @@
 @Tutorial(time: 2) {
     @Intro(title: "Speaking") {
-        Had the great opportunity to speak at iOSDC Japan 2023, the top conference for iOS app development in Japan. And gave a presentation on iOS app automated build at an external tech conference held at Yappli, as well as presentations within the company.
+        Spoke at iOSDC Japan 2023, Japan's top iOS conference, and presented on iOS app automated builds at Yappli's tech conference and internal events.
         
         @Image(source: iosdc2023.jpg, alt: "iosdc2023")
     }
     
     @Section(title: "Speakings") {
         @ContentAndMedia {
-            Presentations such as a conference.
+            Had the great opportunity to speak at iOSDC Japan 2023, the top conference for iOS app development in Japan. And gave a presentation on iOS app automated build at an external tech conference held at Yappli, as well as presentations within the company.
             
             @Image(source: iosdc2023.jpg, alt: "iosdc")
         }
         
         @Steps {
             @Step {
-                I'm gonna introduce my apps with this format.
+                I'm gonna introduce my speakings with this format.
                 
                 @Code(name: "Speakings.swift", file: Speakings-01.swift) {}
             }

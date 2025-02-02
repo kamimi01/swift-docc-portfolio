@@ -1,6 +1,6 @@
 @Tutorial(time: 1) {
     @Intro(title: "Articles") {
-        Love writing articles. I write not only technical articles on tech blogging service, but also records of participation in technical conferences and career.
+        I enjoy writing, covering tech topics, conference experiences, and career insights.
         
         @Image(source: medium.png, alt: "medium")
     }

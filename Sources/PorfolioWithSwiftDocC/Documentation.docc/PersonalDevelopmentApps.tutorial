@@ -1,15 +1,15 @@
 @Tutorial(time: 2) {
     @Intro(title: "Personal Developmant Apps") {
-        I enjoy developing personal development apps, primarily for iOS 🍎 (you can find a list of the iOS apps I have released here). I am keenly interested in iOS app development and am currently working actively with SwiftUI. Additionally, I am exploring cross-platform development and experimenting with replacing previously released apps using Flutter. I also have experience developing Google Apps Script (GAS), and Slack apps, and open-source software (OSS) libraries.
+        I develop personal development apps, mainly for iOS 🍎 (see my released apps here). I'm focused on SwiftUI and exploring cross-platform development with Flutter. I also have experience with Google Apps Script, Slack apps, and open-source libraries.
         
-        @Image(source: my-apps.png, alt: "An illustration of 3 iPhones in portrait mode, displaying the UI of finding, creating, and taking care of a sloth in Slothy — the sample app that you build in this collection of tutorials.")
+        @Image(source: my-apps.png, alt: "my apps")
     }
     
     @Section(title: "iOS Apps") {
         @ContentAndMedia {
             I enjoy developing personal development apps, primarily for iOS 🍎 (you can find a list of the iOS apps I have released here). I am keenly interested in iOS app development and am currently working actively with SwiftUI. Additionally, I am exploring cross-platform development and experimenting with replacing previously released apps using Flutter. I also have experience developing Google Apps Script (GAS), and Slack apps, and open-source software (OSS) libraries.
             
-            @Image(source: my-apps.png, alt: "An arrow pointing from the SlothCreator framework icon to the Xcode app project icon.")
+            @Image(source: my-apps.png, alt: "my apps")
         }
         
         @Steps {
@@ -52,7 +52,7 @@
             @Step {
                 More apps are available in [App Store](https://apps.apple.com/jp/developer/mika-urakawa/id1566867399)!
                 
-                @Image(source: my-apps.png, alt: "An arrow pointing from the SlothCreator framework icon to the Xcode app project icon.")
+                @Image(source: my-apps.png, alt: "my apps")
             }
         }
     }

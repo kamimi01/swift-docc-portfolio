@@ -24,7 +24,7 @@
     }
     
     @Chapter(name: "🚀 Personal Development Apps") {
-        @Image(source: my-apps.png, alt: "A wireframe of an app interface that has an outline of a sloth and four buttons below the sloth. The buttons display the following symbols, from left to right: snowflake, fire, wind, and lightning.")
+        @Image(source: my-apps.png, alt: "my apps")
         
         I enjoy developing personal development apps, primarily for iOS 🍎
         
@@ -32,7 +32,7 @@
     }
     
     @Chapter(name: "👩🏻‍🏫 Speaking") {
-        @Image(source: iosdc2023.jpg, alt: "A wireframe of an app interface that has an outline of a sloth and four buttons below the sloth. The buttons display the following symbols, from left to right: snowflake, fire, wind, and lightning.")
+        @Image(source: iosdc2023.jpg, alt: "iosdc")
         
         Had the great opportunity to speak at iOSDC Japan 2023, the top conference for iOS app development in Japan. And gave a presentation on iOS app automated build at an external tech conference held at Yappli, as well as presentations within the company.
         
@@ -40,7 +40,7 @@
     }
     
     @Chapter(name: "✍️ Articles") {
-        @Image(source: medium.png, alt: "A wireframe of an app interface that has an outline of a sloth and four buttons below the sloth. The buttons display the following symbols, from left to right: snowflake, fire, wind, and lightning.")
+        @Image(source: medium.png, alt: "medium")
         
         Love writing articles. I write not only technical articles on tech blogging service, but also records of participation in technical conferences and career.
         
