@@ -1,6 +1,6 @@
 import Foundation
 
-struct iOSApp {
+struct Work {
     /// Name of an app
     let name: String
     /// Tech Stacks

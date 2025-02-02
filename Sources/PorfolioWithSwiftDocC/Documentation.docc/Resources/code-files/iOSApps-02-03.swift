@@ -1,6 +1,6 @@
 // ...more code
 
-let friendManager: iOSApp = .init(
+let friendManager: Work = .init(
     name: "Friend Manager",
     technologies: ["Swift, SwiftUI, Realm, Lottie"],
     urls: [
@@ -10,7 +10,7 @@ let friendManager: iOSApp = .init(
     ]
 )
 
-let topicGen: iOSApp = .init(
+let topicGen: Work = .init(
     name: "TopicGen",
     technologies: ["Swift", "SwiftUI", "OpenAI"],
     urls: [
@@ -20,7 +20,7 @@ let topicGen: iOSApp = .init(
     ]
 )
 
-let ezPomo: iOSApp = .init(
+let ezPomo: Work = .init(
     name: "EZ Pomo",
     technologies: ["Swift, SwiftUI, Realm, Lottie"],
     urls: [

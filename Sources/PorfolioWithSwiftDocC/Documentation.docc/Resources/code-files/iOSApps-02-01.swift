@@ -1,6 +1,6 @@
 // ...more code
 
-let friendManager: iOSApp = .init(
+let friendManager: Work = .init(
     name: "Friend Manager",
     technologies: ["Swift, SwiftUI, Realm, Lottie"],
     urls: [
